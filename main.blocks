@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="=a}MUyRWmU1Xf.)xu)*C">Zufallszahl</variable></variables><block type="pxt-on-start" id="1(3?oMstURvP7EK^i/1M" x="0" y="0"></block><block type="device_forever" id="y)[HsE^rp(#E).5-r3z^" x="205" y="0"></block><block type="device_gesture_event" id="4maQrs,[,PanMuEDZCkp" x="517" y="158"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="variables_set" id="PmoAk~N8+WS35a8K4tmy"><field name="VAR" id="=a}MUyRWmU1Xf.)xu)*C">Zufallszahl</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="AcW`4Df^|VY6918YMRqj"><value name="min"><shadow type="math_number" id="t)h1Pyfy1h%[2kf9Ml,f"><field name="NUM">1</field></shadow></value><value name="limit"><shadow type="math_number" id="ZV3:XMZ5@)]!W$+*AjKE"><field name="NUM">3</field></shadow></value></block></value><next><block type="controls_if" id="cr$DXq(G]6G|Y+#-L-#J"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="wl:r*!Tz.M{OAMpYl+j`"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="W#T~LZZJw-8N[v/WoW#f"><field name="VAR" id="=a}MUyRWmU1Xf.)xu)*C">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="WjKmz9B4/8?e?:.TGcP#"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="1I,+`=lHW3fT]/~i]z7F"><field name="LEDS">`
+        # # . . # 
+        # # . # . 
+        . . # . . 
+        # # . # . 
+        # # . . #
+        `</field></block></statement><value name="IF1"><block type="logic_compare" id="KcJb#ly%!v}}]|J}x}9h"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="C_AJBPz?1zx;v%U#Ewoj"><field name="VAR" id="=a}MUyRWmU1Xf.)xu)*C">Zufallszahl</field></block></value><value name="B"><shadow type="math_number" id="kW@odlQ//F.|/:xAE`jD"><field name="NUM">2</field></shadow></value></block></value><statement name="DO1"><block type="device_show_leds" id="E;6)a.m=lc(K[(2u`|fU"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="}*l!_,[w_IrP~2-9Fn|r"><field name="LEDS">`
+        . . . . . 
+        . . . # # 
+        . . # . . 
+        # # . . . 
+        . . . . .
+        `</field></block></statement></block></next></block></statement></block></xml>
